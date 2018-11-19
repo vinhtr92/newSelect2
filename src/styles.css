@@ -1,4 +1,62 @@
 .App {
-  font-family: sans-serif;
   text-align: center;
+}
+
+.select2 {
+}
+
+.select2 ul {
+  margin: 0;
+  padding: 0;
+}
+
+.select2 input,
+li,
+.select2__result {
+  padding: 10px 15px;
+  display: inline-block;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.select2 input {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+}
+.select2 li {
+  display: block;
+  line-height: 1.7;
+  color: whitesmoke;
+  margin: 0 0 2px 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+.select2 li:hover {
+  cursor: pointer;
+}
+
+.select2 .select2__container {
+}
+
+.select2.active .select2__container {
+  display: block;
+}
+
+.select2 .select2__result {
+  background: rgba(0, 0, 0, 0.8);
+  display: block;
+  color: white;
+}
+
+.select2 .select2__container {
+  display: none;
+  /* background: rgba(0, 0, 0, 0.4); */
+}
+
+.select2 .select2__opts {
+  /* height: 150px; */
+  /* overflow-y: scroll; */
 }
